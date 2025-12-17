@@ -12,7 +12,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  siprix_voip_sdk_platform_interface: ^1.0.11
+  siprix_voip_sdk_platform_interface:
+    path: ../siprix_voip_sdk_platform_interface
 
 dev_dependencies:
   flutter_test:
