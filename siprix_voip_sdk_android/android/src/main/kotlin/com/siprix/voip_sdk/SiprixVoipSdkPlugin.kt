@@ -1508,7 +1508,7 @@ class SiprixVoipSdkPlugin: FlutterPlugin,
   }
 
   private fun handleDvcGetVideoNumber(args : HashMap<String, Any?>, result: MethodChannel.Result) {
-    result.success(0)//TODO add impl
+    result.success(2)//Hardcoded: front and back camera
   }
 
   private fun handleDvcGetPlayout(args : HashMap<String, Any?>, result: MethodChannel.Result) {

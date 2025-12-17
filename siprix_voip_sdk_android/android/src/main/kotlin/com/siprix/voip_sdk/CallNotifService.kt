@@ -171,6 +171,7 @@ open class CallNotifService : Service() {
         }
 
         val rcvrIntent = Intent(action)
+        rcvrIntent.setPackage(_context.packageName)
         rcvrIntent.putExtras(bundle)
         rcvrIntent.setPackage(_context.packageName)
         return PendingIntent.getBroadcast(
